@@ -1,6 +1,6 @@
 ## Link :
-### Link 1 : https://clone-cf1d9.web.app/
-### Link 2 : 
+### Live : https://clone-cf1d9.web.app/
+### Demo: https://drive.google.com/file/d/1gHK4t22iIU6ONaIqjXVbpRyte2Lq6bkP/view?usp=sharing
 
 ## Features :
 1. React app using create-react-app 
