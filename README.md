@@ -10,7 +10,7 @@
 5. Product Component
 6. BEM CSS Styling
 7. React Context API
-8. Login Page
+8. Login Page - Auth - Firebase
 
 
 ## Todo :
