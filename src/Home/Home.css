@@ -1,0 +1,42 @@
+.home {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  /* overflow-y: hidden; */
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  /* flex-direction: column; */
+}
+
+/* when screen size becomes smaller ...
+push search bar to down ... */
+@media screen and (max-width: 600px) {
+  .home_row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}
+
+/* @media screen and (min-width: 375px) {
+  .home_row {
+    flex-direction: row-reverse;
+  }
+} */
+
+.home_image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+/* .home_product {
+  max-width: 100%;
+  height: auto;
+} */
